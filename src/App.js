@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import Todo from "./components/Todo";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Successfully dockerized</h1>
+    <div style={{ padding: "50px" }} className="App">
+      <Todo />
     </div>
   );
 }
